@@ -5,5 +5,6 @@ def line(katz_deli)
     line_currently = "The line is currently: "
     katz_deli.each_with_index do |name, index|
       line_currently << " {#index + 1}. {name} "
+    end
   end
 end
