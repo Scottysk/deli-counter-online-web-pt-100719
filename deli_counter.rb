@@ -12,5 +12,6 @@ def line(katz_deli)
   end
 end
 
-def take_a_number(array, string)
+def take_a_number(array, name)
+  katz_deli[0]
 end
