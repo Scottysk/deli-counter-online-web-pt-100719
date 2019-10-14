@@ -11,3 +11,6 @@ def line(katz_deli)
     puts line_currently
   end
 end
+
+def take_a_number(array, string)
+end
