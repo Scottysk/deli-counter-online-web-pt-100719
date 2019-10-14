@@ -13,6 +13,6 @@ def line(katz_deli)
 end
 
 def take_a_number(array, name)
-  katz_deli << name
+  array << name
   puts "Welcome, #{name}. You are number #{array.length} in line."
 end
