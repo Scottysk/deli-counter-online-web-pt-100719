@@ -4,6 +4,6 @@ def line(katz_deli)
   else katz_deli.length >= 1
     line_currently = "The line is currently: "
     katz_deli.each_with_index do |name, index|
-      line_currently << " #"
+      line_currently << " #index.to"
   end
 end
